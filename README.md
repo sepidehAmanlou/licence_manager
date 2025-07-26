@@ -71,6 +71,8 @@ Endpoint: /api/keyboard_sellers?city={CITY}
 
 
 ذخیره گزارش هر فراخوانی در فایل storage/app/keyboard_sellers_log.jsonl (append mode).
+
+
 کش نتایج API خارجی برای یک ساعت.
 
 
@@ -87,6 +89,8 @@ getLastThreeTransactions() (final – قابل override نیست).
 پیاده‌سازی بانک‌ها:
 
 MellatBank – خواندن توکن و تراکنش‌ها از BankMockController.
+
+
 SamanBank – مشابه بالا.
 
 
