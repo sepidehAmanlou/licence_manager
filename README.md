@@ -62,8 +62,14 @@ Endpoint: /api/keyboard_sellers?city={CITY}
 ویژگی‌ها:
 
 اعتبارسنجی شهر (فقط Zanjan, Tehran, Ardabil, Isfahan, Qazvin مجازند).
+
+
 هزینه ارسال = صفر اگر city کاربر با city فروشنده یکسان باشد.
+
+
 محاسبه میانگین قیمت و یافتن فروشنده با کمترین total_cost.
+
+
 ذخیره گزارش هر فراخوانی در فایل storage/app/keyboard_sellers_log.jsonl (append mode).
 کش نتایج API خارجی برای یک ساعت.
 
